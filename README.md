@@ -3,11 +3,11 @@ MASAT intial guess for SLAM
 This repository contains the code for the MASAT algorithm. 
 
 ### Guide
-After downloading you can compile with 
+Compile:
 ```sh
 ./make
 ```
-After compiling you can run the program the following way:
+Run:
 ```sh
 ./MASAT 'path_input_file' 'path_to_output_file'
 ```
