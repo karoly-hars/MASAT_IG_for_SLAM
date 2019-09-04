@@ -1,6 +1,6 @@
 #include <iostream>
 #include <ctime>
-#include "src/Graph.h"
+#include "include/Graph.h"
 
 double getTime(clock_t time1, clock_t time2){
     double ticks= time1-time2;
