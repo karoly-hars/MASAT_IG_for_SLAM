@@ -18,7 +18,5 @@ Once the inital guess is finished, we suggest using the [g2o](https://github.com
 
 
 ### Requirements
-This repository uses/contains the Eigen library. 
-More information about Eigen:
-http://eigen.tuxfamily.org/index.php?title=Main_Page
+- Eigen (http://eigen.tuxfamily.org)
 
