@@ -1,6 +1,6 @@
 MASAT intial guess for SLAM
 ============================================
-This repository contains the code for the MASAT algorithm, an accurate and efficent approach for creating inital estimates prior to optimization in off-line SLAM.
+This repository contains the code for the *MASAT algorithm*: a robust and efficent approach for creating inital estimates prior to pose-graph optimization in off-line SLAM.
 
 ### The paper describing the approach:
 [Károly Harsányi, Attila Kiss, Tamás Szirányi, András Majdik: MASAT: A fast and robust algorithm for pose-graph initialization](https://www.sciencedirect.com/science/article/pii/S0167865519303241)
