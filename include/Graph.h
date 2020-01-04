@@ -48,5 +48,3 @@ private:
 };
 
 #endif // GRAPH_H
-
-

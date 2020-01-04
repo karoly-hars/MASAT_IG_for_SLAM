@@ -8,6 +8,7 @@
 typedef Eigen::Quaternion<double> Quat;
 typedef Eigen::Vector3d Vec;
 
+
 class SE3{       
     
 private:

@@ -7,6 +7,7 @@ double getTime(clock_t time1, clock_t time2){
     return (1000.0*ticks)/(CLOCKS_PER_SEC);
 }
 
+
 int main(int argc, char **argv){
     if (argc != 3) {
         std::cerr<<"Please use the following syntax: ./MASAT OutputFilePath InputFilePath"<<std::endl;

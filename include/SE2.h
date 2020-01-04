@@ -19,6 +19,7 @@ inline double normalize_theta(double theta){
     return theta;
 }
 
+
 class SE2{
     
 private:
