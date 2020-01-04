@@ -2,6 +2,7 @@
 #include <ctime>
 #include "include/Graph.h"
 
+
 double getTime(clock_t time1, clock_t time2){
     double ticks= time1-time2;
     return (1000.0*ticks)/(CLOCKS_PER_SEC);

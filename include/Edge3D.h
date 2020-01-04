@@ -1,10 +1,13 @@
 #ifndef EDGE3D_H
 #define EDGE3D_H
 
+
 #include <Eigen/Dense>
 #include "SE3.h"
 
+
 typedef Eigen::MatrixXd Matrix;
+
 
 class Edge3D{
     

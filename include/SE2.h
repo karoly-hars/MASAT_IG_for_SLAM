@@ -1,9 +1,11 @@
 #ifndef SE2_H
 #define SE2_H
 
+
 #include <sstream>
 #include <assert.h>
 #include <cmath>
+
 
 inline double normalize_theta(double theta){
     if (theta >= -M_PI && theta < M_PI)

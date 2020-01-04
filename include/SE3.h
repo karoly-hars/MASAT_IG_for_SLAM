@@ -1,9 +1,11 @@
 #ifndef SE3_H
 #define SE3_H
 
+
 #include <sstream>
 #include <assert.h>
 #include <Eigen/Geometry>
+
 
 typedef Eigen::Quaternion<double> Quat;
 typedef Eigen::Vector3d Vec;

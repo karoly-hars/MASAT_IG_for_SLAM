@@ -1,10 +1,13 @@
 #ifndef EDGE2D_H
 #define EDGE2D_H
 
+
 #include <Eigen/Dense>
 #include "SE2.h"
 
+
 typedef Eigen::MatrixXd Matrix;
+
 
 class Edge2D{
     
