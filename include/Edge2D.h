@@ -10,11 +10,11 @@ typedef Eigen::MatrixXd Matrix;
 
 
 class Edge2D{
-    
+
 public:
     Edge2D(){}
     ~Edge2D(){}
-    
+
     Edge2D(int fromID, int toID, SE2 m, Matrix I){
         this->fromID = fromID;
         this->toID = toID;
@@ -25,7 +25,7 @@ public:
     int getFromID() const {
         return fromID;
     }
-    
+
     int getToID() const {
         return toID;
     }
@@ -33,11 +33,11 @@ public:
     SE2 getM(){
         return m;
     }
-    
+
     Matrix getI(){
         return I;
     }
-    
+
     Edge2D getBackwards(){
         return Edge2D(toID, fromID, m.inv(), I);
     }

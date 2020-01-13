@@ -15,14 +15,14 @@ int main(int argc, char **argv){
         return 1;
     }
 
-    Graph g;    
+    Graph g;
     g.readFile(argv[1]);
-    
+
     clock_t begin=clock();
     g.runMASAT();
     clock_t end=clock();
     std::cout<<"Runtime: "<<getTime(end, begin)<<" ms."<<std::endl;
     g.writeFile(argv[2]);
-    
+
     return 0;
 }
