@@ -11,7 +11,7 @@ double getTime(clock_t time1, clock_t time2){
 
 int main(int argc, char **argv){
     if (argc != 3) {
-        std::cerr<<"Please use the following syntax: ./MASAT OutputFilePath InputFilePath"<<std::endl;
+        std::cerr<<"Please use the following syntax: ./MASAT <PATH_TO_INPUT_FILE> <PATH_TO_OUTPUT_FILE>"<<std::endl;
         return 1;
     }
 
