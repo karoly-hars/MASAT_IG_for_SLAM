@@ -15,8 +15,8 @@ Compile:
 ```
 Run:
 ```sh
-./MASAT 'path_input_file' 'path_to_output_file'
+./MASAT <PATH_TO_INPUT_FILE> <PATH_TO_OUTPUT_FILE>
 ```
-The input files must be in .g2o format. There are some examples in the 'input_data' folder.
+The input files must be in .g2o format. There are some examples in the ```./input_data``` folder.
 
 Once the inital guess is finished, we suggest using the [g2o](https://github.com/RainerKuemmerle/g2o) framework for optimization and visualization.
